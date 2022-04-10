@@ -21,7 +21,6 @@ public class GeneratorConfig {
         empExample.or().andDidEqualTo(2);
         List<Emp> emps = mapper.selectByExample(empExample);
        emps.forEach(emp -> System.out.println(emp));
-        System.out.println("hello.txt");
 
     }
 
