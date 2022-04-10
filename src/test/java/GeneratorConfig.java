@@ -21,8 +21,7 @@ public class GeneratorConfig {
         empExample.or().andDidEqualTo(2);
         List<Emp> emps = mapper.selectByExample(empExample);
        emps.forEach(emp -> System.out.println(emp));
-        System.out.println("master-commit1");
-        System.out.println("Test1-commit2");
+        System.out.println("push sucessfully");
 
     }
 
