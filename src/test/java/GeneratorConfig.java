@@ -22,6 +22,7 @@ public class GeneratorConfig {
         List<Emp> emps = mapper.selectByExample(empExample);
        emps.forEach(emp -> System.out.println(emp));
         System.out.println("Test1");
+        System.out.println("Test1-commit2");
 
     }
 
